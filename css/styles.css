@@ -1,0 +1,236 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+}
+.container{
+    max-width: 1200px;
+}
+/*header*/
+header{
+    padding: 30px 0 29px;
+    background: #181818;
+    position: absolute;
+    z-index: 2;
+    width: 100%;
+}
+header .container{
+    display: flex;
+    margin: auto;
+    box-sizing: border-box;
+    justify-content: space-between;
+}
+header ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header a{
+    font-size: 15px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+header li{
+    margin-left: 32px;
+}
+header .first{
+    margin-right: 24px;
+}
+header .first a{
+    font-size: 13px;
+}
+.a_button{
+    padding: 9px 20px 13px 20px;
+    background: #FFFFFF;
+    border-radius: 14px;
+}
+.a_button a{
+    color: #000000;
+    font-size: 16px;
+}
+/*section aperture_studios*/
+.aperture_studios{
+    background-image: url("../images/aperture_studios_bg.png");
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    margin: auto;
+}
+.aperture_studios_info{
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 61px;
+}
+.aperture_studios_decor{
+    position: absolute;
+    bottom: 46px;
+    right: 40px;
+}
+.aperture_studios_decor ul{
+    display: flex;
+    font-size: 12px;
+    line-height: 12px;
+    color: #FFFFFF;
+    justify-content: flex-end;
+}
+.aperture_studios_decor li{
+    margin-left: 16px;
+    display: flex;
+}
+.aperture_studios_info h2{
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #C0C0C0;
+}
+.aperture_studios_info h1{
+    font-size: 54px;
+    line-height: 59px;
+    color: #FFFFFF;
+}
+.aperture_studios_info p{
+    font-size: 14px;
+    line-height: 20px;
+    color: #C0C0C0;
+    margin-top: 18px;
+}
+.decor_delay:before{
+    content: url("../images/delay.svg");
+    margin-right: 6px;
+}
+.decor_mode:before{
+    content: url("../images/mode.svg");
+    margin-right: 6px;
+}
+.decor_iso:before{
+    content: url("../images/iso.svg");
+    margin-right: 6px;
+}
+.decor_place:before{
+    content: url("../images/place.svg");
+    margin-right: 6px
+}
+/*what we do*/
+.what_we_do{
+    background: #000000;
+    padding: 120px 0 100px;
+}
+.what_we_do .container{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    align-items: center;
+}
+.what_we_do h2{
+    font-size: 40px;
+    line-height: 42px;
+    color: #FFFFFF;
+    margin-bottom: 15px;
+}
+.what_we_do p{
+    font-size: 23px;
+    line-height: 30px;
+    color: #C0C0C0;
+    margin-bottom: 26px;
+}
+.what_we_do_articles{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    box-sizing: border-box;
+    justify-content: space-between;
+    padding: 0 16px 0 16px;
+}
+article{
+    position: relative;
+    max-width: 576px;
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    box-sizing: border-box;
+    margin-top: 16px;
+}
+.product_photography{
+    background-image: url("../images/product_photography_bg.png");
+    background-size: cover;
+}
+.architecture_photography{
+    background-image: url("../images/architecture_photography_bg.png");
+    background-size: cover;
+}
+.drone_photography{
+    background-image: url("../images/drone_photography_bg.png");
+    background-size: cover;
+}
+.wildlife_photography{
+    background-image: url("../images/wildlife_photography_bg.png");
+    background-size: cover;
+}
+.article_info{
+    box-sizing: border-box;
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+}
+.product_photography .article_info{
+    max-width: 501px;
+}
+.architecture_photography .article_info{
+    max-width: 514px;
+}
+.drone_photography .article_info{
+    max-width: 516px;
+}
+.wildlife_photography .article_info{
+    max-width: 480px;
+}
+.article_info h4{
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 15px;
+}
+.article_info p{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #C0C0C0;
+    margin-bottom: 21px;
+}
+article .a_button{
+    max-width: 145px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 5px 4px;
+}
+
+article .a_button a:before{
+    display: flex;
+    content: '';
+    background: black;
+    height: 32px;
+    width: 32px;
+    border-radius: 16px;
+    margin-right: 6px;
+}
+article .a_button a{
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: 0.4px;
+}
